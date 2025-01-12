@@ -20,7 +20,7 @@ apiUrl = 'https://task-manager-app-production-db8e.up.railway.app';
   constructor(private http:HttpClient) { }
 
   getTasks():Observable<Task[]> {
-    var response = this.http.get<Task[]>(`${this.apiUrl}`)
+    var response = this.http.get<Task[]>(`${this.apiUrl}/tasks`)
     .pipe(
       tap(items => {
         console.log(items)

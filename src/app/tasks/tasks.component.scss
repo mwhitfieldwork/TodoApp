@@ -1,9 +1,9 @@
-.container {
+.container{
+    background-color:#fff;
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
-    border:1px #ccc solid;
-    border-radius: 15px;  
+    border-radius: 15px;
     padding:50px;
     width: 45%;
     max-width: 1200px;
